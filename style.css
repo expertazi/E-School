@@ -87,6 +87,16 @@ header {
   color: #585859;
   text-align: center;
 }
+.schools-books-items{
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  transition: all .2s ease-in-out; 
+}
+.schools-books-items:hover{
+  background-color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
 /* Second Section Done  */
 /* Category Section Stylesheet Start From Here  */
 .school-category-heading-title {
@@ -101,7 +111,9 @@ header {
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
   border-radius: 18px;
   border: none;
+
 }
+
 .course-card-title {
   font-style: normal;
   font-weight: 500;
