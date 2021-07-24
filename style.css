@@ -168,3 +168,47 @@ margin-bottom: 4rem;
   color: white;
   letter-spacing: 0.6px;
 }
+
+/*---------------------------------------------------------------------------------------
+                                  Responsive Start From Here  
+-------------------------------------------------------------------------------------*/
+
+/* Mobile Responsive Start From Here  */
+@media only screen and (max-width:667px) {
+ .school-frist-sec-h2{
+  width: none;
+  font-size: 37px;
+  line-height: 49px;
+ }
+
+ .school-frist-sec-p2{
+  width: 351px;
+ }
+
+ .school-frist-sec-img{
+  width: 100%;
+  height: 100%;
+   margin-top: 40px;
+ }
+
+ /* Frist Section End From Here  */
+
+ .school-testmonial{
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ .school-testimonial-item-content{
+   text-align: center;
+ }
+
+ /* This is for footer  */
+
+ .school-footer-col{
+  margin-top: 35px;
+ }
+
+}
+/* Tablet Responsive Start From Here  */
+@media only screen and (min-width:668px) and (max-width:992px) {
+  
+}
